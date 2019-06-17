@@ -6,6 +6,7 @@ html {
 body {
   padding:0;
   margin:0;
+
 }
 
 .back1 {
@@ -15,6 +16,8 @@ body {
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+
 }
 
 .back2 {
@@ -42,6 +45,7 @@ body {
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;
+  display:none;
 }
 
 .back5 {
@@ -62,52 +66,192 @@ body {
   background-size: cover;
 }
 
+p {
+  color:white;
+  font-size:100%;
+
+}
 .container1 {
-  border: 5px solid gray;
   padding-left: 80px;
   padding-top: 40px;
   padding-right: 80px;
+  height:22%;
 }
 
 .logo1 {
   background-image: url("logo.png");
-  width:50px;
-  height:50px;
+  width:80px;
+  height:80px;
   background-size:contain;
   background-repeat: no-repeat;
   display:inline-block;
   vertical-align: top;
+  padding-top:0;
+
+}
+
+.logo1 p {
+  margin-left:80px;
+  margin-top:24px;
+  width:200px;
+  font-size:200%
 }
 
 .logo2 {
-  width:50px;
+  width:auto;
   height:50px;
+  margin-top:16px;
   display:inline-block;
   vertical-align: top;
-  margin-left: 50%;
-
+  margin-left: 37%;
+  font-family:Brush Script MT, Brush Script Std, cursive;
 }
 
 .logo3 {
   background-image: url("logo-mail.png");
   width:50px;
   height:50px;
+  margin-top:24px;
   background-size:contain;
   background-repeat: no-repeat;
   display:inline-block;
   vertical-align: top;
   float:right;
+  margin-right:15%;
+  font-family:Brush Script MT, Brush Script Std, cursive;
 }
 
-ul {
-  margin-left:50%;
-}
-
-li {
-  margin-left:50%;
+.logo3p {
+  margin-left:60px;
+  margin-top:7px;
 }
 
 .container12 {
-  border:5px solid gray;
-  padding-left:50%;
+  text-align:center;
+  font-size:200%;
+}
+
+.container13 {
+  padding:3%;
+  padding-top:1%;
+  text-align:center;
+  line-height:2;
+  font-size:120%;
+}
+
+.container2 {
+  border: 5px solid gray;
+}
+
+.container2 p {
+  color:black;
+}
+
+
+
+.container6 {
+  border-top:1px solid #f5f5f5;
+}
+
+.container61 {
+}
+
+.container61 p {
+  text-align: center;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+}
+
+.container61 .question {
+  font-size: 50;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.container61 .consultation {
+  margin-top: 0px;
+  font-size:20;
+}
+
+.container61 .privatedata {
+  padding-top:105px;
+}
+
+.container62 {
+  height: 140px;
+}
+
+.container62 a {
+    margin:45px;
+    margin-right: 0;
+    text-decoration: none;
+    display:inline-block;
+    background-image: url("geotag.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:50px;
+    height:50px;
+}
+
+.container62 a:hover {
+  background-image: url("geotag_hover.png");
+}
+
+.container62 a:active {
+  background-image: url("geotag_active.png");
+}
+
+.container62 a p {
+  margin-left:55px;
+  margin-top:12px;
+  width:385px;
+  margin-bottom:0;
+  font-family:Brush Script MT, Brush Script Std, cursive;
+  vertical-align: center;
+  font-size:150%;
+}
+
+.container62 .logo2 p {
+  margin-top:0px;
+  margin-left: 10px;
+}
+
+.container62 .logo3 {
+  margin-top:60px;
+  margin-right:17%
+}
+
+
+.container63 {
+  height: 190px;
+}
+
+.social {
+  display:inline-block;
+  width:92px;
+  height:92px;
+  vertical-align:middle;
+  background-image: url("social.png");
+  background-repeat: no-repeat;
+  margin:50px 20px;
+  border-radius: 46px;
+}
+
+.social:hover {
+  background-image: url("social_hover.png");
+}
+
+.social:active {
+  background-image: url("social_active.png");
+}
+
+.social-vk {
+  margin-left: 36%;
+}
+
+.social-fb {
+  background-position: -245px 0px;
+}
+
+.social-inst {
+  background-position: -609px 0px;
 }
